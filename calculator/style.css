@@ -1,0 +1,62 @@
+*
+{
+
+    margin: 0;
+
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(190, 193, 196);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+}
+.container
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card
+{
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                      5px 5px 12px rgba(0, 0, 0, .16);
+    display: grid;
+    grid-template-columns: repeat(4,80px);
+}
+input
+{
+    grid-column: span 4;
+    height: 50px;
+    width: 260px;
+    background-color: rgb(177, 165, 165);
+    color: rgb(44, 40, 40);
+   
+ border-radius: 5px;
+   font-size: 15px;
+   outline: none;
+   text-align: end;
+   margin: auto;
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
+button
+{
+    height: 50px;
+    width: 50px;
+    background-color: #cfddcf;
+    box-shadow: -5px -5px 12px #ffffff,
+                 5px 5px 12px rgba(0, 0, 0, .16);
+                 border-radius: 50%;
+                 margin: 8px;
+                 font-size: 20px;
+                 cursor: pointer;
+}
+.equal
+{
+    width: 120px;
+    border-radius: 20px ;
+}
